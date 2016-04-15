@@ -8,14 +8,14 @@
   <body>
     <!-- header contains social media nav, as well as navagation bar.-->
     <header>
-      <nav>
+      <nav class="social">
         <a href="#Facebook">Go to Facebook</a>
         <a href="#Twitter">Go to twitter</a>
         <a href="#Googleplus">Go to Google</a>
         <a href="#YouTube">Go to YouTube</a>
       </nav>
 
-      <nav>
+      <nav class="navigation">
         <a href="#Home">Go to Homepage</a>
         <a href="#News">View News</a>
         <a href="#About">Go to About Page</a>
@@ -26,63 +26,92 @@
     <!--beginning of Carousel-->
     <main class="carousel">
       <ol>
-        <li><img class="carousel__IMAGE" src="PATH TO IMAGE" alt="" /></li>
-        <li><img src="PATH TO IMAGE" alt="" /></li>
-        <li><img src="PATH TO IMAGE" alt="" /></li>
+        <li><img class="carousel__IMAGE" src="PATHTOIMAGE" alt="" /></li>
+        <li><img src="PATHTOIMAGE" alt="" /></li>
+        <li><img src="PATHTOIMAGE" alt="" /></li>
       </ol>
+
       <!-- links to images for carousel-->
       <nav>
         <a href="#"></a>
-
         <a href="#"></a>
-
         <a href="#"></a>
-
       </nav>
+      <!--end of carousel-->
+
     </main>
     <!-- "article0 represents a standart article model. any modifications to this structure would be labeld "article(n)"-->
     <section>
 
       <article class="article0">
-        <h2"article0__title">Tony Hawk Foundation </h2>
-        <time"article0__date">this is a date</time>
-        <p"article0__para">
+        <h2"article0--title">Tony Hawk Foundation </h2>
+        <time"article0--date">this is a date</time>
+        <p"article0--para">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <a href="#LINK">June, 6, 2006</a>
       </article>
 
       <article class="article0">
-        <h2"article0__title">Rodney Mullen: Pop an ollie and innovate.</h2>
-        <time"article0__date">oct, 28, 2001</time>
-        <p"article0__para">
+        <h2 class="article0--title">Rodney Mullen: Pop an ollie and innovate.</h2>
+        <time class="article0--date">oct, 28, 2001</time>
+        <p class="article0--para">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <a href="#LINK">Read more</a>
       </article>
 
       <article class="article0">
-        <h2"article0__title">Tony Hawk Foundation </h2>
-        <time"article0__date">The Year is 200x</time>
-        <p"article0__para">
+        <h2"article0--title">Tony Hawk Foundation </h2>
+        <time"article0--date">The Year is 200x</time>
+        <p"article0--para">
          Dr. Wily, world renowned robotics expert and owner of Wily Labs, has built new fortress and army of robotic henchmen. Led by eight new Robot Masters of his design: Metal Man, Air Man, Bubble Man, Quick Man, Crash Man, Flash Man, Heat Man, and Wood Man, it is here that Dr. Wily is holding and building his army. However... The Earth has a Hero Designed specificly to combat Dr Wilys "Reaver Bots!" Mega Man! Sent by his creator, Dr. Light, Megaman will defeat Dr. Wily and his Robot Masters
 
         </p>
         <a href="#LINK">Read more</a>
       </article>
-    </section>
-      <a href="#"><img src="" alt="" /></a>
-      <a href="#"><img src="" alt="" /></a>
-      <a href="#"><img src="" alt="" /></a>
-      <a href="#"><img src="" alt="" /></a>
-      <a href="#"><img src="" alt="" /></a>
-      <a href="#"><img src="" alt="" /></a>
-    </Section>
+      <section>
+        <img src="assets/sk8er-4.png"alt="Lance Mountain"/>
+        <img src="assets/sk8er-3.png"alt="Rodney Mullen"/>
+        <img src="assets/sk8er-2.png"alt="Tommy Guerrero"/>
+        <img src="assets/sk8er-1.png"alt="Steve Caballero" />
+      </section>
 
-
+      <section>
+        <img src="assets/sk8-1.png" alt=""/>
+        <img src="assets/sk8-2.png" alt=""/>
+        <img src="assets/sk8-3.png" alt=""/>
+        <img src="assets/sk8-4.png" alt=""/>
+        <img src="assets/sk8-5.png" alt=""/>
+        <img src="assets/sk8-6.png" alt=""/>
+        <img src="assets/sk8-7.png" alt=""/>
+        <img src="assets/sk8-8.png" alt=""/>
+        <img src="assets/sk8-9.png" alt=""/>
+        <img src="assets/sk8-10.png" alt=""/>
+      </section>
 
 
     <footer>
+
+      <h3>Contact us for more information</h3>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <!-- form code taken from previous assignment, with `text area` modification.-->
+      <form action="footerForm">
+        <input type="text" name="Name" value=""/><br/>
+        <input type="text" name="Email" value=""/><br/>
+        <textarea name="message" rows="6" cols="30"></textarea>
+        <input type="submit" value="Submit"/>
+      </form>
+
+      <nav>
+        <a href="Facebook.com">Facebook</a>
+        <a href="Twitter.com">Twitter</a>
+        <a href="Googleplus.com">Google</a>
+        <a href="Youtube.com">Youtube</a>
+      </nav>
 
     </footer>
   </body>
