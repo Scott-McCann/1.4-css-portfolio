@@ -1,3 +1,38 @@
 html {
 font-family: sans-serif;
+/*removes serif*/
 }
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+/* begining of header*/
+
+body {
+  background-image:url(../assets/bg.jpg);
+}
+.grid_col {
+  font-size: 12px;
+}
+.navigationborder__bottom{
+  border-bottom: 4px, solid, (50,50,50);
+}
+.navigation__socialnav{
+  diplay: inline-block;
+  text-align: right;
+  .navigationborder__bottom
+  .grid_col
+}
+
+.sk8er {
+  positon: relative
+}
+.sk8er__pointer {
+  border: 5px;
+  position:absolute;
+  top: -150px;
+  left: -150px;
+}
+
+.
