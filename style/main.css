@@ -1,3 +1,4 @@
+* {margin: 0;}
 html {
 font-family: sans-serif;
 /*removes serif*/
@@ -10,37 +11,118 @@ background-size:cover;
   width: 1024px;
   margin: 0 auto;
 }
+.grid__col{
+  font-size: 12;
+}
+.grid__row {
+  /* hack for display: inline-block
+   removes default space between elements*/
+  font-size: 0;
+}
 /* begining of header*/
+
 
 body{
   background-color: tgba(200,200,200,0.5)
 }
-.grid_col {
-  font-size: 12px;
-}
 
-.navigation__socialnav {
+
+.socialnav {
   diplay: inline-block;
   text-align: right;
-  .grid_col;
 }
 .navigation__socialnav--a {
-  border-bottom-width:thick;
-  border-bottom: 4px grey solid;
+
 }
 .navigation__pagenav{
- text-align: center;
- width: auto;
+  margin-top: 25px;
+  text-align: center;
+  width: auto
+
+
 }
 .navigation__pagenav--a{
-  box-sizing: border-box;
-  width: 248px
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+  color: grey;
 
 }
 
-.sk8er {
-  positon: relative
+.carousel{
+  margin-top: 25px;
+  background-color: #fff;
 }
+.carousel__image{
+  width: 1024px;
+  height: 355px;
+  overflow: scroll;
+}
+
+.article {
+  display: inline-block;
+
+
+}
+
+.article0{
+  display: inline-block;
+  width: 310px;
+  height: 350px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  padding: 10px;
+  padding-bottom: 19px;
+
+}
+.article0:nth-child(3){
+  margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+.sk8er__imagebox{
+  height: 223px;
+  width: 310px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  border: 5px #fff solid;
+  overflow: hidden;
+  display: inline-block;
+  float:left;
+}
+.sk8er__imagebox2 {
+  height: 474px;
+  width: 334px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  border: 5px #fff solid;
+  overflow: hidden;
+  display: inline-block;
+
+}
+.sk8er__imagebox3 {
+  height: 232px;
+  width: 600px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  border: 5px #fff solid;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+
 .sk8er__pointer {
   border: 5px;
   position:absolute;
@@ -48,4 +130,12 @@ body{
   left: -150px;
 }
 
-.
+.boards {
+  width: auto;
+  background-color: #fff;
+
+}
+.boards img{
+  margin-right: 15px;
+  margin-left: 15px;
+}
