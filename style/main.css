@@ -1,6 +1,9 @@
 html {
 font-family: sans-serif;
 /*removes serif*/
+background-image:url(../assets/bg.jpg);
+background-repeat: no-repeat;
+background-size:cover;
 }
 
 .wrapper {
@@ -9,20 +12,30 @@ font-family: sans-serif;
 }
 /* begining of header*/
 
-body {
-  background-image:url(../assets/bg.jpg);
+body{
+  background-color: tgba(200,200,200,0.5)
 }
 .grid_col {
   font-size: 12px;
 }
-.navigationborder__bottom{
-  border-bottom: 4px, solid, (50,50,50);
-}
-.navigation__socialnav{
+
+.navigation__socialnav {
   diplay: inline-block;
   text-align: right;
-  .navigationborder__bottom
-  .grid_col
+  .grid_col;
+}
+.navigation__socialnav--a {
+  border-bottom-width:thick;
+  border-bottom: 4px grey solid;
+}
+.navigation__pagenav{
+ text-align: center;
+ width: auto;
+}
+.navigation__pagenav--a{
+  box-sizing: border-box;
+  width: 248px
+
 }
 
 .sk8er {
